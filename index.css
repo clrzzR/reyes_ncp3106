@@ -344,11 +344,13 @@ footer {
 
 
 #about .about-header{
-    padding: 60px   ;
+    margin-top: 157px;
+    font-size: 35px;
 }
 
 #about .about-content{
     padding: 76px;
+    margin-top: -41px;
 }
 
 #about .about-image-container{
@@ -401,7 +403,7 @@ footer {
 
 #contact {
     background-color: #fcf5eb;
-    padding: 60px 0;
+    padding: 31px 0;
 }
 
 #contact .container {
@@ -416,15 +418,14 @@ footer {
 
 #contact h2 {
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 30px;
+    font-size: 35px;
     font-weight: 600;
 }
 
 #contact p {
     text-align: center;
     font-size: 18px;
-    margin-bottom: 40px;
+    padding-bottom: 23px;
     line-height: 1.6;
 }
 
@@ -432,14 +433,12 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 50px;
     color: #ba4b2f;
 }
 
 #contact .info-item {
     flex: 1 1 30%;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 #contact .info-item h3 {
@@ -459,7 +458,6 @@ footer {
 
 #contact .contact-form h3 {
     font-size: 24px;
-    margin-bottom: 20px;
     color: #ba4b2f;
     font-weight: 600;
 }
@@ -471,7 +469,6 @@ footer {
 #contact .form-group label {
     display: block;
     font-size: 16px;
-    margin-bottom: 8px;
     color: #ba4b2f;
     font-weight: 500;
 }
