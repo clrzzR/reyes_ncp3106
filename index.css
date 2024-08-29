@@ -87,14 +87,13 @@ section {
     background-color: #F7E7DC;
 }
 
-
-footer {
-    background-color: #ba4b2f;;
-    color: #fcf5eb;
+/* 
+footer p{
+    background-color: #EFA595;
     text-align: center;
     padding: 10px 0;
     margin-top: auto;
-}
+} */
 
 
 /* ========== */
@@ -179,7 +178,10 @@ footer {
 } 
 
 
-
+#home .home-degree h1 a{
+    text-decoration: none;
+    color:  #ba4b2f;
+}
 
 /* images */
 
@@ -192,6 +194,18 @@ footer {
     width: 80%;
     max-width: 500px;
 }
+
+#contact .b-info-item-number p a{
+    text-decoration: none;
+    color: #ba4b2f;
+}
+
+
+#contact .c-info-item-email-address p a{
+    text-decoration: none;
+    color:  #ba4b2f;
+}
+
 
 @media (max-width: 1024px) {
     #home {
